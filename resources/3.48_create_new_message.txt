@@ -1,0 +1,3 @@
+To jest tekst, ktory wprowadzam do pliku.Ca³kiem inny tekst, który dodajemy do pliku. 
+Calkiem inny tekst, ktory dodajemy do pliku w nowej linii. 
+Dodawanie tekstu do pliku z metody.
