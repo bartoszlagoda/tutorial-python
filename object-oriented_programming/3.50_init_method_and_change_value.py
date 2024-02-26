@@ -13,7 +13,9 @@ class Pies:
 # tworzenie obiektu klasy Pies
 reksio = Pies('kundelek','Reksio',2)
 print(reksio.wiek)
-print(reksio.imie)
-print(reksio.rasa)
+reksio.wiek = 3
+print(reksio.wiek)
+print(reksio.gatunek)
+reksio.gatunek = "Ptak"
 print(reksio.gatunek)
 print(Pies.gatunek) # poniewaz pole gatunek jest charakterystyczne dla calej klasy
