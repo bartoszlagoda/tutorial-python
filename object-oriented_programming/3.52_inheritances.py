@@ -16,7 +16,13 @@ class Student (Osoba): # klasa Student dziedziczy po klasie Osoba
     def podaj_numer_indeksu(self):
         return self.nr_indeksu
 
+    # 3.53 nadpisywanie metod klasy nadrzędnej w klasie podrzędnej
+    def przedstaw_sie(self):
+        return f"Jestem studentem i mam na imie {self.imie}"
 
-student = Student("Tomasz","Kot",123456)
-print(student.przedstaw_sie()) # wywołanie metody z klasy nadrzędnej dla klasy podrzędnej
+
+osoba = Osoba("Tomasz","Kot")
+student = Student("Eugeniusz","Bodo",123456)
+print(osoba.przedstaw_sie()) # wywołanie metody z klasy nadrzędnej dla klasy podrzędnej
+print(student.przedstaw_sie())
 print(student.podaj_numer_indeksu())
